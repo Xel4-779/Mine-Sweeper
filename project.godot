@@ -12,12 +12,14 @@ config_version=5
 
 config/name="Mine Sweeper"
 config/features=PackedStringArray("4.6", "GL Compatibility")
-config/icon="res://icon.svg"
+config/icon="res://Assets/icon.svg"
 
 [file_customization]
 
 folder_colors={
-"res://Assets/": "red"
+"res://Assets/": "red",
+"res://Scenes/": "purple",
+"res://Scripts/": "blue"
 }
 
 [physics]

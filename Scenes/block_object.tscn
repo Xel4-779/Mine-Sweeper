@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://dj14qeeawmp8t"]
+
+[ext_resource type="PackedScene" uid="uid://r5fqfpnri2nr" path="res://Scenes/display_component.tscn" id="1_bn4f3"]
+
+[node name="Block Object" type="Control" unique_id=104924103]
+layout_mode = 3
+anchors_preset = 0
+pivot_offset = Vector2(32, 32)
+
+[node name="Display Component" parent="." unique_id=975753833 instance=ExtResource("1_bn4f3")]
+layout_mode = 0
